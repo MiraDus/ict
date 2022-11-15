@@ -3,11 +3,11 @@ g102
 # Program make a simple calculator
 
 # This function adds two numbers
-def add(x, y):
+def add(y, x):
     return x + y
 
 # This function subtracts two numbers
-def subtract(x, y):
+def subtraction(x, y):
     return x - y
 
 # This function multiplies two numbers
@@ -22,7 +22,7 @@ def divide(x, y):
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
-print("3.Multiply")
+print("3.Multiplication")
 print("4.Divide")
 
 while True:
@@ -43,7 +43,7 @@ while True:
         elif choice == '3':
             print(num1, "*", num2, "=", multiply(num1, num2))
 
-        elif choice == '4':
+        elif choice == '5':
             print(num1, "/", num2, "=", divide(num1, num2))
         
         # check if user wants another calculation
